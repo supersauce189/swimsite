@@ -24,6 +24,7 @@ table {
     text-align: center;
     border: none;
     margin: 0 auto;
+    display: none;
 }
 td, th {
     padding: 10px;
