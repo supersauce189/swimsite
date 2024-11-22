@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "chromedriver": "^130.0.4",
+    "express": "^4.21.1",
+    "path": "^0.12.7",
+    "playwright": "^1.48.2",
+    "puppeteer": "^23.7.0",
+    "selenium-webdriver": "^4.26.0"
+  },
+  "scripts": {
+    "install": "npx puppeteer install && npx puppeteer browsers install chrome",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.1"
+  }
+}
